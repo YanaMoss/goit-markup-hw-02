@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка с меню навигации по сайту-->
     <header>
       <nav>
-        <a href="./index.html"><img src="./images/logo.png" alt="Логотип" /></a>
+        <a href="./index.html" class="logo">WebStudio</a>
         <ul>
           <li><a href="./index.html">Студия</a></li>
           <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="" class="logo">Контакты</a></li>
         </ul>
       </nav>
       <ul>
@@ -26,10 +26,12 @@
     </header>
     <!--Основной контент-->
     <main>
-      <section>
-        <h1>Эффективные решения для Вашего бизнеса</h1>
-        <button>Заказать услугу</button>
-      </section>
+      <div class="section-tagline">
+        <section>
+          <h2>Эффективные решения для Вашего бизнеса</h2>
+          <button>Заказать услугу</button>
+        </section>
+      </div>
       <section>
         <!-- <h2>Особенности</h2> -->
         <ul>
@@ -67,25 +69,13 @@
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img
-              src="./images/box1.png"
-              alt="Разрабатываем продукт"
-              width="370px"
-            />
+            <img src="./images/box1.png" alt="Разрабатываем продукт" />
           </li>
           <li>
-            <img
-              src="./images/box2.png"
-              alt="Создаем адаптивный интерфейс"
-              width="370px"
-            />
+            <img src="./images/box2.png" alt="Создаем адаптивный интерфейс" />
           </li>
           <li>
-            <img
-              src="./images/box3.png"
-              alt="Разрабатываем дизайн"
-              width="370px"
-            />
+            <img src="./images/box3.png" alt="Разрабатываем дизайн" />
           </li>
         </ul>
       </section>
@@ -94,11 +84,7 @@
         <ul>
           <li>
             <figure>
-              <img
-                src="./images/team1.jpg"
-                alt="фото Игорь Демьяненко"
-                width="270px"
-              />
+              <img src="./images/team1.jpg" alt="фото Игорь Демьяненко" />
               <figcaption>
                 Игорь Демьяненко Product <span lang="en">Designer</span>
               </figcaption>
@@ -106,11 +92,7 @@
           </li>
           <li>
             <figure>
-              <img
-                src="./images/team2.jpg"
-                alt="фото Ольга Репина"
-                width="270px"
-              />
+              <img src="./images/team2.jpg" alt="фото Ольга Репина" />
               <figcaption>
                 Ольга Репина Frontend <span lang="en">Developer</span>
               </figcaption>
@@ -118,11 +100,7 @@
           </li>
           <li>
             <figure>
-              <img
-                src="./images/team3.jpg"
-                alt="фото Николай Тараов"
-                width="270px"
-              />
+              <img src="./images/team3.jpg" alt="фото Николай Тараов" />
               <figcaption>
                 Николай Тараов <span lang="en">Marketing</span>
               </figcaption>
@@ -130,11 +108,7 @@
           </li>
           <li>
             <figure>
-              <img
-                src="./images/team4.jpg"
-                alt="фото Михаил Ермаков"
-                width="270px"
-              />
+              <img src="./images/team4.jpg" alt="фото Михаил Ермаков" />
               <figcaption>
                 Михаил Ермаков <span lang="en">UI Designer</span>
               </figcaption>
@@ -145,7 +119,7 @@
     </main>
     <!--Подвал сайта с контактами-->
     <footer>
-      <a href="./index.html"><img src="./images/logo.png" alt="Логотип" /></a>
+      <a href="./index.html">WebStudio</a>
       <address>г. Киев, пр-т Леси Украинки, 26</address>
       <address>
         <a href="mailto:info@example.com">info@example.com</a>
