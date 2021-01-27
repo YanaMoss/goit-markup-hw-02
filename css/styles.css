@@ -1,13 +1,43 @@
 body {
-  background-color: FFFFFF;
-  color: 757575;
+  background-color: #ffffff;
+  color: #757575;
 }
-/* Белый FFFFFF */
-/* Текст Основной черный 757575 */
-/* Текст Вторичный серый  212121 */
-/* Текст в футтере (255,255,255,0,6) */
-/* Акцент 2196F3 */
-/* Вторичный цвет фона F5F4FA */
+.list {
+  list-style: none;
+}
+.header {
+  color: #212121;
+}
+/* Логотип */
 .logo {
-  color: 000000;
+  color: #000000;
+}
+.logo-part {
+  color: #2196f3;
+}
+/* Шапка */
+/* Навигация */
+/* .nav-page {
+} */
+.nav-page-list {
+  color: #212121;
+}
+.nav-page-list:hover {
+  color: #2196f3;
+}
+/* Свяжитесь с нами */
+.contacts-list {
+  color: #757575;
+}
+.contacts-list:hover {
+  color: #2196f3;
+}
+/* main */
+.section-tagline {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+button {
+  background-color: #2196f3;
+  color: #ffffff;
 }
