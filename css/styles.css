@@ -1,6 +1,10 @@
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -11,6 +15,7 @@ body {
 /* Логотип */
 .logo {
   color: #000000;
+  font-family: "Raleway", sans-serif;
 }
 .logo-part {
   color: #2196f3;
@@ -38,6 +43,18 @@ body {
   color: #ffffff;
 }
 button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.team {
+  background-color: #f5f4fa;
+}
+/* Портфолио */
+.filters a {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.filters a:hover {
   background-color: #2196f3;
   color: #ffffff;
 }

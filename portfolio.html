@@ -5,138 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Шапка с меню навигации по сайту-->
     <header>
       <nav>
-        <a href="./index.html"><img src="./images/logo.png" alt="Логотип" /></a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="./index.html" class="logo"
+          ><span class="logo-part">Web</span>Studio</a
+        >
+        <ul class="list">
+          <span><a class="nav-page-list" href="./index.html">Студия</a></span>
+          <li>
+            <a class="nav-page-list" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="nav-page-list" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li>
-          <a href="mailto:info@example.com">info@example.com</a>
+          <a class="contacts-list" href="mailto:info@example.com"
+            >info@example.com</a
+          >
         </li>
-        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <li>
+          <a class="contacts-list" contacts-list href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <nav>
-        <a href="">Все</a>
-        <a href="">Веб-сайты</a>
-        <a href="">Приложения</a>
-        <a href="">Дизайн</a>
-        <a href="">Маркейтинг</a>
-      </nav>
       <section>
         <!--<h2>Примеры работ</h2>-->
-        <ul>
+        <div class="filters">
+          <a href="">Все</a>
+          <a href="">Веб-сайты</a>
+          <a href="">Приложения</a>
+          <a href="">Дизайн</a>
+          <a href="">Маркейтинг</a>
+        </div>
+        <ul class="list header">
           <li>
-            <figure>
-              <img
-                src="./images/portfolio1.svg"
-                alt="Изображение сайта"
-                width="370px"
-                height="294px"
-              />
-              <figcaption>Технокряк</figcaption>
-              <p>Веб-сайт</p>
-            </figure>
+            <img
+              src="./images/portfolio1.jpg"
+              alt="Изображение сайта"
+              width="370px"
+              height="294px"
+            />
+            <h3 class="header">Технокряк</h3>
+            <p>Веб-сайт</p>
           </li>
           <li>
-            <figure>
-              <img
-                src="./images/portfolio2.svg"
-                alt="Изображение постера"
-                width="370px"
-                height="294px"
-              />
-              <figcaption>Постер New Orlean vs Golden Star</figcaption>
-              <p>Дизайн</p>
-            </figure>
+            <img
+              src="./images/portfolio2.jpg"
+              alt="Изображение постера"
+              width="370px"
+              height="294px"
+            />
+            <h3 class="header">Постер New Orlean vs Golden Star</h3>
+            <p>Дизайн</p>
           </li>
           <li>
-            <figure>
-              <img src="./images/portfolio3.svg" alt="Логотип ресторана" />
-              <figcaption>Ресторан Seafood</figcaption>
-              <p>Приложение</p>
-            </figure>
+            <img src="./images/portfolio3.jpg" alt="Логотип ресторана" />
+            <h3 class="header">Ресторан Seafood</h3>
+            <p>Приложение</p>
           </li>
           <li>
-            <figure>
-              <img
-                src="./images/portfolio4.svg"
-                alt="Изображение сайта"
-                width="370px"
-                height="294px"
-              />
-              <figcaption>Проект Prime</figcaption>
-              <p>Маркейтинг</p>
-            </figure>
+            <img
+              src="./images/portfolio4.jpg"
+              alt="Изображение сайта"
+              width="370px"
+              height="294px"
+            />
+            <h3 class="header">Проект Prime</h3>
+            <p>Маркейтинг</p>
           </li>
           <li>
-            <figure>
-              <img
-                src="./images/portfolio5.svg"
-                alt="Изображение сайта"
-                width="370px"
-                height="294px"
-              />
-              <figcaption>Проект Boxes</figcaption>
-              <p>Приложение</p>
-            </figure>
+            <img
+              src="./images/portfolio5.jpg"
+              alt="Изображение сайта"
+              width="370px"
+              height="294px"
+            />
+            <h3 class="header">Проект Boxes</h3>
+            <p>Приложение</p>
           </li>
           <li>
-            <figure>
-              <img
-                src="./images/portfolio6.svg"
-                alt="Изображение сайта"
-                width="370px"
-                height="294px"
-              />
-              <figcaption>Inspiration has no Borders</figcaption>
-              <p>Веб-сайт</p>
-            </figure>
+            <img
+              src="./images/portfolio6.jpg"
+              alt="Изображение сайта"
+              width="370px"
+              height="294px"
+            />
+            <h3 class="header">Inspiration has no Borders</h3>
+            <p>Веб-сайт</p>
           </li>
           <li>
-            <figure>
-              <img
-                src="./images/portfolio7.svg"
-                alt="Изображение сайта"
-                width="370px"
-                height="294px"
-              />
-              <figcaption>Издание Limited Edition</figcaption>
-              <p>Дизайн</p>
-            </figure>
+            <img
+              src="./images/portfolio7.jpg"
+              alt="Изображение сайта"
+              width="370px"
+              height="294px"
+            />
+            <h3 class="header">Издание Limited Edition</h3>
+            <p>Дизайн</p>
           </li>
           <li>
-            <figure>
-              <img
-                src="./images/portfolio8.svg"
-                alt="Изображение сайта"
-                width="370px"
-                height="294px"
-              />
-              <figcaption>Проект LAB</figcaption>
-              <p>Маркейтинг</p>
-            </figure>
+            <img
+              src="./images/portfolio8.jpg"
+              alt="Изображение сайта"
+              width="370px"
+              height="294px"
+            />
+            <h3 class="header">Проект LAB</h3>
+            <p>Маркейтинг</p>
           </li>
           <li>
-            <figure>
-              <img
-                src="./images/portfolio9.svg"
-                alt="Изображение сайта"
-                width="370px"
-                height="294px"
-              />
-              <figcaption>Growing Business</figcaption>
-              <p>Приложение</p>
-            </figure>
+            <img
+              src="./images/portfolio9.jpg"
+              alt="Изображение сайта"
+              width="370px"
+              height="294px"
+            />
+            <h3 class="header">Growing Business</h3>
+            <p>Приложение</p>
           </li>
         </ul>
       </section>
