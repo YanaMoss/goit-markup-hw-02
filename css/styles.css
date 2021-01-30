@@ -1,60 +1,171 @@
+/* Основной цвет #757575 */
+/* Дополнительный цвет #212121 */
+/* Ауцент-цвет #2196f3 */
+
+/* Цвет фона основной #ffffff
+   Цвет фона дополнительный темный #2f303a 
+   Цвет фона дополнительный светло-серый rgb(255, 255, 255, 0.6)*/
+/* Общие */
 body {
   background-color: #ffffff;
   color: #757575;
   font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 a {
   text-decoration: none;
 }
-.list {
+ul {
   list-style: none;
 }
-.header {
-  color: #212121;
-}
-/* Логотип */
+/* Header */
 .logo {
   color: #000000;
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 .logo-part {
   color: #2196f3;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
-/* Шапка */
-/* Навигация */
-/* .nav-page {
-} */
+/*Navigation*/
 .nav-page-list {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.nav-page-list:hover {
+.nav-page-list:hover,
+.nav-page-list:focus {
   color: #2196f3;
 }
 /* Свяжитесь с нами */
 .contacts-list {
   color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .contacts-list:hover {
   color: #2196f3;
 }
 /* main */
+/* Studio */
 .section-tagline {
   background-color: #2f303a;
   color: #ffffff;
 }
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+}
 button {
   background-color: #2196f3;
   color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
+h2 {
+  color: #212121;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+.uppercase h3 {
+  color: #212121;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* Our team */
 .team {
   background-color: #f5f4fa;
 }
+.team h3 {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.team p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
 /* Портфолио */
-.filters a {
+/* filters */
+/* .filters a {
   background-color: #f5f4fa;
   color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
-.filters a:hover {
+.filters a:hover,
+.filters a:focus {
   background-color: #2196f3;
   color: #ffffff;
+}
+.projects h3 {
+  color: #212121;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.projects p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+} */
+/* Footer */
+
+footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+address p {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+address a {
+  color: rgb(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
