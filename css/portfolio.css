@@ -1,32 +1,34 @@
-/* Портфолио */
-/* filters */
-.filters a {
-  background-color: #f5f4fa;
-  color: #212121;
+/* Portfolio */
+
+.work-filtres {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  text-align: center;
   letter-spacing: 0.03em;
+  color: var(--titel-text-color--);
+  background-color: var(--secondary-bcd-color--);
 }
-.filters a:hover,
-.filters a:focus {
-  background-color: #2196f3;
+.work-filtres:hover,
+.work-filtres:focus,
+.work-filtres:active {
   color: #ffffff;
+  background-color: var(--accent-color--);
 }
-/* projects cards */
-.projects h3 {
-  color: #212121;
+.work-title {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
+  color: var(--titel-text-color--);
 }
-.projects p {
+.work-subtitle {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color--);
 }
