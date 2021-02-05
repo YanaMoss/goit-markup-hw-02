@@ -28,17 +28,11 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--black-color--);
-
-  /* text-decoration: none; */
 }
 
 .logo-part {
   color: var(--accent-color--);
 }
-
-/* .nav-list {
-  list-style: none;
-} */
 
 .nav-link {
   font-style: normal;
@@ -90,11 +84,9 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  /* text-decoration: none; */
   color: var(--white-color--);
 }
 
 .footer-contacts {
-  /* text-decoration: none; */
   color: rgb(255, 255, 255, 0.6);
 }
